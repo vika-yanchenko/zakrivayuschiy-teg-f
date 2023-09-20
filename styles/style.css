@@ -65,7 +65,7 @@
 .theme-menu__list {
   display: flex;
   flex-direction: column;
-  gap: 0.875rem;  
+  gap: 0.875rem;
   font-family: var(--font-fm-accent);
   font-size: 0.875rem;
   line-height: 1;
@@ -131,7 +131,7 @@
 .card__list {
   display: flex;
   flex-direction: column;
-  gap: 3.563rem;  
+  gap: 3.563rem;
   margin-bottom: 3.375rem;
 }
 
@@ -150,17 +150,17 @@
 
 .card__image-wrapper {
   position: relative;
-  aspect-ratio: 1 / 1; 
+  aspect-ratio: 1 / 1;
   border-top: 2px solid var(--color-accent);
   border-bottom: 2px solid var(--color-accent);
   font-size: 0;
 }
 
-.card__image { 
+.card__image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;  
+  object-position: center;
 }
 
 .card__item:nth-child(1) .card__image {
@@ -240,15 +240,12 @@
 .card__like-button {
   background-color: transparent;
   border: none;
-}
-
-.card__like-button { 
-  position: relative; 
+  position: relative;
   display: flex;
   align-items: center;
   border: 2px solid var(--color-accent);
   background-color: var(--color-background);
-  padding: 11px 37px;  
+  padding: 11px 37px;
   font-size: 0.875rem;
   font-family: var(--font-fm-accent);
   line-height: 1;
@@ -294,9 +291,9 @@
   display: flex;
   align-items: center;
   border: 2px solid transparent;
-  background-color: transparent; 
-  cursor: pointer; 
-  transition: border 0.3s ease;  
+  background-color: transparent;
+  cursor: pointer;
+  transition: border 0.3s ease;
 }
 
 .card__icon-button:focus {
@@ -414,7 +411,7 @@
   max-width: max-content;
   padding: 13px 37px;
   background-color: var(--color-background);
-  border: 2px solid var(--color-accent);  
+  border: 2px solid var(--color-accent);
   font-size: 0.875rem;
   font-family: var(--font-fm-accent);
   line-height: 1;
@@ -445,8 +442,8 @@
   position: relative;
   width: 1.313rem;
   height: 1.313rem;
-  z-index: 3;    
-  color: var(--color-button-hover); 
+  z-index: 3;
+  color: var(--color-button-hover);
 }
 
 .save-button * {
@@ -457,7 +454,7 @@
   position: fixed;
   inset: 0;
   background-color: var(--color-background);
-  border: 2px solid var(--color-accent); 
+  border: 2px solid var(--color-accent);
   padding: 1.938rem;
   margin: auto;
   width: clamp(21.313rem, 20.9609rem + 1.5023vw, 22.313rem);
@@ -495,7 +492,7 @@ dialog::backdrop {
   background-color: var(--color-background);
   border: 2px solid var(--color-accent);
   font-size: 0.875rem;
-  font-family: var(--font-fm-accent); 
+  font-family: var(--font-fm-accent);
   cursor: pointer;
   width: 100%;
   text-transform: uppercase;
@@ -524,7 +521,7 @@ dialog::backdrop {
 
 @media (width <= 375px) {
   .save-button {
-    flex-direction: column;    
+    flex-direction: column;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
   }
