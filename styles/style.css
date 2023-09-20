@@ -16,6 +16,8 @@
 .page {
   display: flex;
   flex-direction: column;
+  padding-bottom: 6.25rem;
+  padding-top: 6.25rem;
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--font-fm-main);
@@ -41,7 +43,6 @@
   background-color: var(--color-background);
   border: 2px solid var(--color-accent);
   margin-bottom: 6.25rem;
-  margin-top: 6.25rem;
   padding-top: clamp(7.5rem, 7.1479rem + 1.5023vw, 8.5rem);
   padding-bottom: 1.563rem;
   padding-left: 0.875rem;
