@@ -238,7 +238,6 @@
 }
 
 .card__like-button {
-  background-color: transparent;
   border: none;
   position: relative;
   display: flex;
